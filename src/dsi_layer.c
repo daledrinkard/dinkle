@@ -2,7 +2,7 @@
 #include "r_mipi_dsi_api.h"
 
 #include "hal_data.h"
-#include "dsi_layer.h"
+#include "dsi_layer.h"                     
 
 void mipi_dsi0_callback(mipi_dsi_callback_args_t * p_args);
 static fsp_err_t dsi_layer_set_peripheral_max_return_msg_size(void);
