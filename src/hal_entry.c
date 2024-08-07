@@ -28,7 +28,7 @@ void rbg_render565(void)
     //Variable to hold display configuration
     display_input_cfg_t const *p_input = &g_display0.p_cfg->input[0];
 
-    //pointer to frame buffer
+    //pointer to frame buffer                           
     uint16_t * buf_ptr = (uint16_t *)fb_background;
 
     uint16_t bar_width = p_input->vsize/7;
